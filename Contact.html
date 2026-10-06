@@ -20,7 +20,7 @@
   <!-- ========== EN-TÊTE ========== -->
   <header class="en-tete">
     <div class="conteneur en-tete__contenu">
-      <a class="logo" href="index.html">CHARAF EDDINE ESSADI</a>
+      <a class="logo" href="#contact">CHARAF EDDINE ESSADI</a>
       <nav aria-label="Navigation principale">
         <ul class="menu">
           <li><a href="index.html">Présentation</a></li>
@@ -40,20 +40,23 @@
 
         <form class="formulaire" action="#" method="post">
           <label for="nom">Nom</label>
-          <input id="nom" name="nom" type="text">
+          <input id="nom" name="nom" type="text" required>
 
           <label for="email">E-mail</label>
-          <input id="email" name="email" type="text">
+          <input id="email" name="email" type="email" required>
+
+          <label for="sujet">Sujet</label>
+          <input id="sujet" name="sujet" type="text" required>
 
           <label for="message">Message</label>
-          <textarea id="message" name="message" rows="6"></textarea>
+          <textarea id="message" name="message" rows="6" required></textarea>
 
           <button class="bouton" type="submit">Envoyer</button>
         </form>
 
         <ul class="reseaux">
-          <li><a class="lien" href="#">GitHub</a></li>
-          <li><a class="lien" href="#">LinkedIn</a></li>
+          <li><a class="lien" href="https://github.com/essaadicharaf/">GitHub</a></li>
+          <li><a class="lien" href="https://www.linkedin.com/in/essaadicharafeddine/">LinkedIn</a></li>
         </ul>
       </div>
     </section>
