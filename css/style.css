@@ -1,0 +1,275 @@
+/* ==========================================================
+   Portfolio — modèle de départ (une seule page)
+   Sommaire :
+   1. Variables
+   2. Base
+   3. En-tête
+   4. Présentation
+   5. Sections communes
+   6. Compétences
+   7. Projets
+   8. Contact
+   9. Pied de page
+   ========================================================== */
+
+/* ---------- 1. Variables ---------- */
+:root {
+  /* Couleurs */
+  --couleur-fond: #ffffff;
+  --couleur-fond-clair: #f4f6fa;
+  --couleur-texte: #1c2333;
+  --couleur-texte-doux: #5b6478;
+  --couleur-principale: #2f5bea;
+  --couleur-bordure: #dde3ec;
+
+  /* Typographie */
+  --police: "Inter", Arial, sans-serif;
+
+  /* Mise en page */
+  --largeur-max: 1100px;
+  --rayon: 10px;
+}
+
+/* ---------- 2. Base ---------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--police);
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--couleur-texte);
+  background-color: var(--couleur-fond);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.conteneur {
+  max-width: var(--largeur-max);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.bouton {
+  display: inline-block;
+  padding: 14px 28px;
+  border: none;
+  border-radius: var(--rayon);
+  font-family: var(--police);
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: var(--couleur-principale);
+  cursor: pointer;
+}
+
+.lien {
+  font-weight: 600;
+  color: var(--couleur-principale);
+}
+
+/* ---------- 3. En-tête ---------- */
+.en-tete {
+  border-bottom: 1px solid var(--couleur-bordure);
+}
+
+.en-tete__contenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.menu {
+  display: flex;
+  gap: 32px;
+}
+
+.menu a {
+  font-size: 16px;
+  color: var(--couleur-texte-doux);
+}
+
+/* ---------- 4. Présentation ---------- */
+.presentation {
+  padding: 96px 0;
+}
+
+.presentation__contenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+}
+
+.presentation__texte {
+  max-width: 600px;
+}
+
+.surtitre {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: var(--couleur-principale);
+}
+
+.presentation h1 {
+  font-size: 56px;
+}
+
+.metier {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font-size: 24px;
+  color: var(--couleur-texte-doux);
+}
+
+.presentation .bouton {
+  margin-top: 32px;
+}
+
+.presentation__photo {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+}
+
+/* ---------- 5. Sections communes ---------- */
+.section {
+  padding: 80px 0;
+}
+
+.section--claire {
+  background-color: var(--couleur-fond-clair);
+}
+
+.section h2 {
+  font-size: 36px;
+}
+
+.section__intro {
+  margin-top: 8px;
+  margin-bottom: 40px;
+  color: var(--couleur-texte-doux);
+}
+
+/* ---------- 6. Compétences ---------- */
+.competences {
+  display: flex;
+  gap: 16px;
+}
+
+.competences li {
+  padding: 10px 22px;
+  border: 1px solid var(--couleur-bordure);
+  border-radius: var(--rayon);
+  font-weight: 600;
+  background-color: var(--couleur-fond);
+}
+
+/* ---------- 7. Projets ---------- */
+/* Les projets sont empilés les uns sous les autres. */
+.projet {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 24px;
+  padding: 24px;
+  border: 1px solid var(--couleur-bordure);
+  border-radius: var(--rayon);
+}
+
+.projet__image {
+  width: 320px;
+  height: 200px;
+  border-radius: var(--rayon);
+}
+
+.projet h3 {
+  margin-bottom: 8px;
+  font-size: 22px;
+}
+
+.projet p {
+  color: var(--couleur-texte-doux);
+}
+
+.technologies {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.technologies li {
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: var(--couleur-fond-clair);
+}
+
+/* ---------- 8. Contact ---------- */
+.formulaire {
+  max-width: 560px;
+}
+
+.formulaire label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.formulaire input,
+.formulaire textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px 14px;
+  border: 1px solid var(--couleur-bordure);
+  border-radius: var(--rayon);
+  font-family: var(--police);
+  font-size: 16px;
+  color: var(--couleur-texte);
+  background-color: var(--couleur-fond);
+}
+
+.reseaux {
+  display: flex;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+/* ---------- 9. Pied de page ---------- */
+.pied {
+  padding: 32px 0;
+  border-top: 1px solid var(--couleur-bordure);
+  font-size: 15px;
+  text-align: center;
+  color: var(--couleur-texte-doux);
+}
