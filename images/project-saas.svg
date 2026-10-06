@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="100%" height="100%">
+  <defs>
+    <!-- خلفية النافذة -->
+    <linearGradient id="nexusBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#1e1e2f" />
+    </linearGradient>
+
+    <!-- تدرج اللون البنفسجي / الأزرق الخاص بالـ SaaS -->
+    <linearGradient id="nexusGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <linearGradient id="cardGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f293d" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+  </defs>
+
+  <!-- خلفية التصميم -->
+  <rect width="640" height="400" rx="12" fill="url(#nexusBg)" />
+
+  <!-- نافذة المتصفح (Browser Bar) -->
+  <rect width="640" height="42" rx="12" fill="#151b28" />
+  <rect y="30" width="640" height="12" fill="#151b28" />
+  <circle cx="28" cy="21" r="5" fill="#ef4444" />
+  <circle cx="44" cy="21" r="5" fill="#f59e0b" />
+  <circle cx="60" cy="21" r="5" fill="#10b981" />
+  <rect x="90" y="13" width="220" height="16" rx="4" fill="#242e42" />
+
+  <!-- Navbar داخل الـ Landing Page -->
+  <g transform="translate(40, 58)">
+    <circle cx="10" cy="10" r="10" fill="url(#nexusGlow)" />
+    <text x="28" y="15" fill="#ffffff" font-family="'Inter', sans-serif" font-size="14" font-weight="700">NEXUS</text>
+    <rect x="360" y="6" width="35" height="8" rx="2" fill="#64748b" />
+    <rect x="410" y="6" width="45" height="8" rx="2" fill="#64748b" />
+    <rect x="470" y="6" width="35" height="8" rx="2" fill="#64748b" />
+    <rect x="520" y="0" width="65" height="20" rx="5" fill="url(#nexusGlow)" />
+  </g>
+
+  <!-- Hero Section -->
+  <!-- Tagline صغير -->
+  <rect x="250" y="105" width="140" height="20" rx="10" fill="#312e81" opacity="0.7" />
+  <text x="268" y="119" fill="#a5b4fc" font-family="'Inter', sans-serif" font-size="10" font-weight="600">v2.0 EST DISPONIBLE</text>
+
+  <!-- العنوان الرئيسي Hero Title -->
+  <text x="320" y="152" fill="#ffffff" font-family="'Inter', sans-serif" font-size="22" font-weight="800" text-anchor="middle">Propulsez Votre Workflow SaaS</text>
+  <text x="320" y="172" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="11" text-anchor="middle">Une plateforme tout-en-un conçue pour maximiser votre conversion et gérer vos abonnements.</text>
+
+  <!-- زر Hero CTA -->
+  <rect x="260" y="190" width="120" height="28" rx="6" fill="url(#nexusGlow)" />
+  <text x="320" y="208" fill="#ffffff" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">Commencer l'essai</text>
+
+  <!-- شبكة بطاقات الأسعار / Pricing & Features (CSS Grid Showcase) -->
+  <g transform="translate(50, 240)">
+    <!-- كارت Starter -->
+    <rect x="0" y="0" width="165" height="135" rx="8" fill="url(#cardGlow)" stroke="#334155" stroke-width="1" />
+    <text x="20" y="26" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="11" font-weight="600">STARTER</text>
+    <text x="20" y="52" fill="#ffffff" font-family="'Inter', sans-serif" font-size="20" font-weight="700">19€<tspan font-size="10" fill="#64748b">/m</tspan></text>
+    <rect x="20" y="68" width="90" height="6" rx="2" fill="#475569" />
+    <rect x="20" y="82" width="115" height="6" rx="2" fill="#475569" />
+    <rect x="20" y="96" width="75" height="6" rx="2" fill="#475569" />
+    <rect x="20" y="112" width="125" height="14" rx="4" fill="#1e293b" stroke="#475569" stroke-width="1" />
+
+    <!-- كارت Pro (Highlighted) -->
+    <rect x="185" y="-10" width="170" height="145" rx="8" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.5" />
+    <rect x="270" y="-10" width="70" height="14" rx="4" fill="url(#nexusGlow)" />
+    <text x="305" y="-1" fill="#ffffff" font-family="'Inter', sans-serif" font-size="8" font-weight="700" text-anchor="middle">POPULAIRE</text>
+    <text x="205" y="22" fill="#c7d2fe" font-family="'Inter', sans-serif" font-size="11" font-weight="600">PRO UNLIMITED</text>
+    <text x="205" y="48" fill="#ffffff" font-family="'Inter', sans-serif" font-size="20" font-weight="700">49€<tspan font-size="10" fill="#a5b4fc">/m</tspan></text>
+    <rect x="205" y="64" width="110" height="6" rx="2" fill="#818cf8" />
+    <rect x="205" y="78" width="130" height="6" rx="2" fill="#818cf8" />
+    <rect x="205" y="92" width="95" height="6" rx="2" fill="#818cf8" />
+    <rect x="205" y="108" width="130" height="18" rx="4" fill="url(#nexusGlow)" />
+
+    <!-- كارت Enterprise -->
+    <rect x="375" y="0" width="165" height="135" rx="8" fill="url(#cardGlow)" stroke="#334155" stroke-width="1" />
+    <text x="395" y="26" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="11" font-weight="600">ENTERPRISE</text>
+    <text x="395" y="52" fill="#ffffff" font-family="'Inter', sans-serif" font-size="20" font-weight="700">99€<tspan font-size="10" fill="#64748b">/m</tspan></text>
+    <rect x="395" y="68" width="105" height="6" rx="2" fill="#475569" />
+    <rect x="395" y="82" width="120" height="6" rx="2" fill="#475569" />
+    <rect x="395" y="96" width="85" height="6" rx="2" fill="#475569" />
+    <rect x="395" y="112" width="125" height="14" rx="4" fill="#1e293b" stroke="#475569" stroke-width="1" />
+  </g>
+</svg>
