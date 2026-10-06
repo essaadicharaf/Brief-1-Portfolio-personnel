@@ -12,6 +12,6 @@ Site d'une seule page en HTML5 et CSS3, point de départ du Brief 1 (Sprint 1).
 
 1. Faites un fork de ce dépôt, puis clonez votre fork.
 2. Ouvrez `index.html` dans votre navigateur.
-3. Suivez les étapes du brief : modifier, séparer, manipuler, créer.
+. Suivez les étapes du brief : modifier, séparer, manipuler, créer.
 
 Remplacez ce fichier par le README de votre propre portfolio.
