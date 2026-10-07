@@ -16,15 +16,14 @@
 :root {
   /* Couleurs */
   --couleur-fond: #ffffff;
-  --couleur-fond-clair: #f4f6fa;
-  --couleur-texte: #1c2333;
-  --couleur-texte-doux: #5b6478;
-  --couleur-principale: #2f5bea;
-  --couleur-bordure: #dde3ec;
+  --couleur-fond-clair: #f0f7fb;
+  --couleur-texte: #023047;
+  --couleur-texte-doux: #219ebc;
+  --couleur-principale: #023047;
+  --couleur-bordure: #8ecae6;
 
   /* Typographie */
-  --police: "Inter", Arial, sans-serif;
-
+  --police: "Plus Jakarta Sans", Arial, sans-serif;
   /* Mise en page */
   --largeur-max: 1100px;
   --rayon: 10px;
@@ -266,6 +265,12 @@ a {
   font-size: 16px;
   color: var(--couleur-texte);
   background-color: var(--couleur-fond);
+}
+/* Astérisque rouge sur les libellés obligatoires */
+.formulaire label::after {
+  content: " *";
+  color: #e63946;
+  font-weight: 700;
 }
 
 .reseaux {
