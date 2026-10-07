@@ -6,7 +6,7 @@ Refactorisation et intégration sémantique d'un modèle de portfolio monopage v
 
 ## 🔗 Maquette Figma
 
-- **Lien du prototype :** [Consulter la maquette Figma en mode lecture](https://www.figma.com/design/co0h8td8m7iccePZsCAgHf/Portfolio-Personnel-%E2%80%94-CHARAF-EDDINE-ESSADI?node-id=1-173&t=dJtYg3OGPGICeotB-1)
+- **Lien du prototype :** [Consulter la maquette Figma en mode lecture](https://www.figma.com/design/DQs8Wh2eRHsDKVL88BDbUe/Portfolio-Personnel-%E2%80%94-CHARAF-EDDINE-ESSADI?node-id=0-1&t=QkSTZK20nDRdoP3S-1)
 
 ---
 
