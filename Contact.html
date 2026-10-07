@@ -1,73 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio de CHARAF EDDINE ESSADI, apprenant développeur web.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio de CHARAF EDDINE ESSADI, apprenant développeur web." />
     <title>CHARAF EDDINE ESSADI — Portfolio</title>
 
     <!-- Police Inter (Google Fonts) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <!-- ========== EN-TÊTE ========== -->
     <header class="en-tete">
-        <div class="conteneur en-tete__contenu">
-            <a class="logo" href="#contact">CHARAF EDDINE ESSADI</a>
-            <nav aria-label="Navigation principale">
-                <ul class="menu">
-                    <li><a href="index.html">Présentation</a></li>
-                    <li><a href="a-propos.html">Compétences</a></li>
-                    <li><a href="Projets.html">Projets</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="conteneur en-tete__contenu">
+        <a class="logo" href="#contact">CHARAF EDDINE ESSADI</a>
+        <nav aria-label="Navigation principale">
+          <ul class="menu">
+            <li><a href="index.html">Présentation</a></li>
+            <li><a href="a-propos.html">Compétences</a></li>
+            <li><a href="Projets.html">Projets</a></li>
+            <li><a class="actif" href="Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!-- ========== CONTACT ========== -->
     <section id="contact" class="section section--claire">
-        <div class="conteneur">
-            <h2>Contact</h2>
-            <p class="section__intro">Une question, une proposition ? Écrivez-moi.</p>
+      <div class="conteneur">
+        <h1>Contact</h1>
+        <p class="section__intro">Une question, une proposition ? Écrivez-moi.</p>
 
-            <form class="formulaire" action="#" method="post">
-                <label for="nom">Nom</label>
-                <input id="nom" name="nom" type="text" required>
+        <form class="formulaire" action="#" method="post">
+          <label for="nom">Nom</label>
+          <input id="nom" name="nom" type="text" required />
 
-                <label for="email">E-mail</label>
-                <input id="email" name="email" type="email" required>
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" required />
 
-                <label for="sujet">Sujet</label>
-                <input id="sujet" name="sujet" type="text" required>
+          <label for="sujet">Sujet</label>
+          <input id="sujet" name="sujet" type="text" required />
 
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="6" required></textarea>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
 
-                <button class="bouton" type="submit">Envoyer</button>
-            </form>
+          <button class="bouton" type="submit">Envoyer</button>
+        </form>
 
-            <ul class="reseaux">
-                <li><a class="lien" href="https://github.com/essaadicharaf/">GitHub</a></li>
-                <li><a class="lien" href="https://www.linkedin.com/in/essaadicharafeddine/">LinkedIn</a></li>
-            </ul>
-        </div>
+        <ul class="reseaux">
+          <li><a class="lien" href="https://github.com/essaadicharaf/">GitHub</a></li>
+          <li><a class="lien" href="https://www.linkedin.com/in/essaadicharafeddine/">LinkedIn</a></li>
+        </ul>
+      </div>
     </section>
 
     <!-- ========== PIED DE PAGE ========== -->
     <footer class="pied">
-        <div class="conteneur">
-            <p>© 2026 CHARAF EDDINE ESSADI. Tous droits réservés.</p>
-        </div>
+      <div class="conteneur">
+        <p>© 2026 CHARAF EDDINE ESSADI. Tous droits réservés.</p>
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>

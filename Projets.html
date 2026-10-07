@@ -1,132 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio de CHARAF EDDINE ESSADI, apprenant développeur web.">
-    <title>CHARAF EDDINE ESSADI — Portfolio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Projets réalisés par CHARAF EDDINE ESSADI, développeur web." />
+    <title>CHARAF EDDINE ESSADI — Projets</title>
 
     <!-- Police Inter (Google Fonts) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <!-- ========== EN-TÊTE ========== -->
     <header class="en-tete">
-        <div class="conteneur en-tete__contenu">
-            <a class="logo" href="index.html">CHARAF EDDINE ESSADI</a>
-            <nav aria-label="Navigation principale">
-                <ul class="menu">
-                    <li><a href="index.html">Présentation</a></li>
-                    <li><a href="a-propos.html">Compétences</a></li>
-                    <li><a href="Projets.html">Projets</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="conteneur en-tete__contenu">
+        <a class="logo" href="index.html">CHARAF EDDINE ESSADI</a>
+        <nav aria-label="Navigation principale">
+          <ul class="menu">
+            <li><a href="index.html">Présentation</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a class="actif" href="projets.html">Projets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <!-- ========== PROJETS ========== -->
-    <section id="projets" class="section">
+    <!-- ========== CONTENU PRINCIPAL ========== -->
+    <main>
+      <section id="projets" class="section">
         <div class="conteneur">
-            <h2>Projets</h2>
-            <p class="section__intro">Une sélection de mes réalisations.</p>
+          <h1>Mes Projets</h1>
+          <p class="section__intro">Une sélection de mes réalisations récentes.</p>
 
-            <div class="projets">
+          <div class="projets">
+            <article class="projet">
+              <img class="projet__image" src="images/project-taskflow.png" alt="Interface du tableau de bord TaskFlow Dashboard" width="320" height="200" />
+              <div class="projet__texte">
+                <h2>TaskFlow Dashboard</h2>
+                <p>Application de gestion des tâches quotidiennes avec organisation par statut et priorisation visuelle.</p>
+                <ul class="technologies">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                </ul>
+                <a class="lien" href="#">Voir le projet</a>
+              </div>
+            </article>
 
-                <article class="projet">
-                    <img class="projet__image" src="images/project-taskflow.png" alt="Aperçu du projet 1" width="320"
-                        height="200">
-                    <div class="projet__texte">
-                        <h3> TaskFlow Dashboard</h3>
-                        <p> Application de gestion des tâches quotidiennes avec organisation par statut et priorisation
-                            visuelle.</p>
-                        <ul class="technologies">
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                        </ul>
-                        <a class="lien" href="#">Voir le projet</a>
-                    </div>
-                </article>
+            <article class="projet">
+              <img class="projet__image" src="images/project-saas.png" alt="Page d'accueil de la solution Nexus SaaS" width="320" height="200" />
+              <div class="projet__texte">
+                <h2>Nexus SaaS Landing Page</h2>
+                <p>Page d'atterrissage monopage avec intégration sémantique rigoureuse et grille tarifaire claire.</p>
+                <ul class="technologies">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                </ul>
+                <a class="lien" href="#">Voir le projet</a>
+              </div>
+            </article>
 
-                <article class="projet">
-                    <img class="projet__image" src="images/project-saas.png" alt="Aperçu du projet 2" width="320"
-                        height="200">
-                    <div class="projet__texte">
-                        <h3> Nexus SaaS Landing Page</h3>
-                        <p>Page d'atterrissage monopage avec intégration sémantique rigoureuse et grille tarifaire
-                            claire.</p>
-                        <ul class="technologies">
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                        </ul>
-                        <a class="lien" href="#">Voir le projet</a>
-                    </div>
-                </article>
+            <article class="projet">
+              <img class="projet__image" src="images/project-weather.png" alt="Interface de prévisions météo WeatherPulse UI" width="320" height="200" />
+              <div class="projet__texte">
+                <h2>WeatherPulse UI</h2>
+                <p>Interface prévisionnelle multi-villes mettant en valeur les indicateurs climatiques essentiels.</p>
+                <ul class="technologies">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                </ul>
+                <a class="lien" href="#">Voir le projet</a>
+              </div>
+            </article>
 
-                <article class="projet">
-                    <img class="projet__image" src="images/project-weather.png" alt="Aperçu du projet 3" width="320"
-                        height="200">
+            <article class="projet">
+              <img class="projet__image" src="images/project-gallery.png" alt="Galerie d'artisanat local Artisan Showcase Explorer" width="320" height="200" />
+              <div class="projet__texte">
+                <h2>Artisan Showcase Explorer</h2>
+                <p>Galerie numérique de créations locales et artisanales, structurée avec CSS Grid et filtrage par catégorie.</p>
+                <ul class="technologies">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Responsive</li>
+                </ul>
+                <a class="lien" href="#">Voir le projet</a>
+              </div>
+            </article>
 
-                    <div class="projet__texte">
-                        <h3>WeatherPulse UI</h3>
-                        <p>Interface prévisionnelle multi-villes mettant en valeur les indicateurs climatiques
-                            essentiels</p>
-                        <ul class="technologies">
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                        </ul>
-                        <a class="lien" href="#">Voir le projet</a>
-                    </div>
-                </article>
-                <article class="projet">
-                    <img class="projet__image" src="images/project-gallery.png" alt="Aperçu du projet 3" width="320"
-                        height="200">
-
-                    <div class="projet__texte">
-                        <h3>Artisan Showcase Explorer</h3>
-                        <p>Galerie numérique de créations locales et artisanales, structurée avec CSS Grid et filtrage par catégorie.</p>
-                        <ul class="technologies">
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>Responsive</li>
-                        </ul>
-                        <a class="lien" href="#">Voir le projet</a>
-                    </div>
-                </article>
-                <article class="projet">
-                    <img class="projet__image" src="images/project-quiz.png" alt="Aperçu du projet 3" width="320"
-                        height="200">
-
-                    <div class="projet__texte">
-                        <h3>DevQuiz Platform</h3>
-                        <p>Application interactive de questionnaires techniques pour évaluer les compétences fondamentales en intégration web.</p>
-                        <ul class="technologies">
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>JavaScript</li>
-                        </ul>
-                        <a class="lien" href="#">Voir le projet</a>
-                    </div>
-                </article>
-
-            </div>
+            <article class="projet">
+              <img class="projet__image" src="images/project-quiz.png" alt="Interface de quiz technique DevQuiz Platform" width="320" height="200" />
+              <div class="projet__texte">
+                <h2>DevQuiz Platform</h2>
+                <p>Application interactive de questionnaires techniques pour évaluer les compétences fondamentales en intégration web.</p>
+                <ul class="technologies">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                </ul>
+                <a class="lien" href="#">Voir le projet</a>
+              </div>
+            </article>
+          </div>
         </div>
-    </section>
+      </section>
+    </main>
 
     <!-- ========== PIED DE PAGE ========== -->
     <footer class="pied">
-        <div class="conteneur">
-            <p>© 2026 CHARAF EDDINE ESSADI. Tous droits réservés.</p>
-        </div>
+      <div class="conteneur">
+        <p>© 2026 CHARAF EDDINE ESSADI. Tous droits réservés.</p>
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>

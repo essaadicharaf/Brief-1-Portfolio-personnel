@@ -1,78 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio de CHARAF EDDINE ESSADI, apprenant développeur web." />
+    <title>CHARAF EDDINE ESSADI — Portfolio</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio de CHARAF EDDINE ESSADI, apprenant développeur web.">
-  <title>CHARAF EDDINE ESSADI — Portfolio</title>
+    <!-- Police Inter (Google Fonts) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet" />
 
-  <!-- Police Inter (Google Fonts) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-  <link rel="stylesheet" href="css/style.css">
-</head>
+  <body>
+    <!-- ========== EN-TÊTE ========== -->
+    <header class="en-tete">
+      <div class="conteneur en-tete__contenu">
+        <a class="logo" href="#presentation">CHARAF EDDINE ESSADI</a>
+        <nav aria-label="Navigation principale">
+          <ul class="menu">
+            <li><a class="actif" href="index.html">Présentation</a></li>
+            <li><a href="a-propos.html">Compétences</a></li>
+            <li><a href="Projets.html">Projets</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<body>
-
-  <!-- ========== EN-TÊTE ========== -->
-  <header class="en-tete">
-    <div class="conteneur en-tete__contenu">
-      <a class="logo" href="#presentation">CHARAF EDDINE ESSADI</a>
-      <nav aria-label="Navigation principale">
-        <ul class="menu">
-          <li><a href="index.html">Présentation</a></li>
-          <li><a href="a-propos.html">Compétences</a></li>
-          <li><a href="Projets.html">Projets</a></li>
-          <li><a href="Contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-
-    <!-- ========== PRÉSENTATION ========== -->
-    <section id="presentation" class="presentation">
-      <div class="conteneur presentation__contenu">
-        <div class="presentation__texte">
-          <p class="surtitre">Bonjour, je suis</p>
-          <h1>CHARAF EDDINE ESSADI</h1>
-          <p class="metier">Apprenant développeur web</p>
-          <p>Développeur Web et Web Mobile en formation à YouCode, centré sur l'intégration rigoureuse d'interfaces accessibles, sémantiques et structurées</p>
-          <a class="bouton" href="Projets.html">Voir mes projets</a>
+    <main>
+      <!-- ========== PRÉSENTATION ========== -->
+      <section id="presentation" class="presentation">
+        <div class="conteneur presentation__contenu">
+          <div class="presentation__texte">
+            <p class="surtitre">Bonjour, je suis</p>
+            <h1>CHARAF EDDINE ESSADI</h1>
+            <p class="metier">Apprenant développeur web</p>
+            <p>Développeur Web et Web Mobile en formation à YouCode, centré sur l'intégration rigoureuse d'interfaces accessibles, sémantiques et structurées</p>
+            <a class="bouton" href="Projets.html">Voir mes projets</a>
+          </div>
+          <img class="presentation__photo" src="images/avatar.png" alt="Portrait de CHARAF EDDINE ESSADI" width="280" height="280" />
         </div>
-        <img class="presentation__photo" src="images/avatar.png" alt="Portrait de CHARAF EDDINE ESSADI" width="280" height="280">
-      </div>
-    </section>
+      </section>
 
-    <!-- ========== COMPÉTENCES ========== -->
-    <section id="competences" class="section section--claire">
+      <!-- ========== COMPÉTENCES ========== -->
+      <section id="competences" class="section section--claire">
+        <div class="conteneur">
+          <h2>Compétences</h2>
+          <p class="section__intro">Les technologies et outils que j'utilise.</p>
+          <ul class="competences">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Figma</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========== PIED DE PAGE ========== -->
+    <footer class="pied">
       <div class="conteneur">
-        <h2>Compétences</h2>
-        <p class="section__intro">Les technologies et outils que j'utilise.</p>
-        <ul class="competences">
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Git</li>
-          <li>GitHub</li>
-          <li>Figma</li>
-          <li>JavaScript</li>
-        </ul>
+        <p>© 2026 CHARAF EDDINE ESSADI. Tous droits réservés.</p>
       </div>
-    </section>
-
-  </main>
-
-  <!-- ========== PIED DE PAGE ========== -->
-  <footer class="pied">
-    <div class="conteneur">
-      <p>© 2026 CHARAF EDDINE ESSADI. Tous droits réservés.</p>
-    </div>
-  </footer>
-
-</body>
-
+    </footer>
+  </body>
 </html>
